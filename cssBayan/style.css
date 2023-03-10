@@ -2,33 +2,51 @@
     margin: 0 auto;
     box-sizing: border-box;
 
-    width: 500px;
+    width: 1000px;
 }
 h1{
     border-bottom: 1px dotted black;
 }
+.mem_container{
+
+    cursor: pointer;
+
+}
 .visible_name{
+
     display: flex;
-    /* position: relative; */
 
     justify-content: space-between;
-}
-.mem_container{
-    display: block;
-    /* position: relative; */
+
+    overflow: hidden;
+
 }
 .img_container{
-    display: none;
+    display: block;
 
-    width: 500px;
-    height: 400px;
+    margin: 0 auto;
 
-    /* position: absolute; */
-    top: 20px;
-    left: 0;
+    width: 600px;
+    height: 0px;
+
+    transition: 1s;
+
+}
+.druzhko{
+    background-image: url("assets/imgonline-com-ua-Resize-cn6h4tEaRXM.jpg");
+    background-repeat: no-repeat;
+}
+.dratuiti{
+    background-image: url("assets/imgonline-com-ua-Resize-psRZi5eY4m.jpg");
+    background-repeat: no-repeat;
+}
+.jony{
+    background-image: url("assets/imgonline-com-ua-Resize-jTLAS6br3uHZ80.jpg");
+    background-repeat: no-repeat;
 }
 .mem_container:hover .img_container{
     display: block;
+    height: 400px;
 
 }
 
