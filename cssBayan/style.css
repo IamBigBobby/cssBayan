@@ -1,0 +1,38 @@
+.wrapper{
+    margin: 0 auto;
+    box-sizing: border-box;
+
+    width: 500px;
+}
+h1{
+    border-bottom: 1px dotted black;
+}
+.visible_name{
+    display: flex;
+    /* position: relative; */
+
+    justify-content: space-between;
+}
+.mem_container{
+    display: block;
+    /* position: relative; */
+}
+.img_container{
+    display: none;
+
+    width: 500px;
+    height: 400px;
+
+    /* position: absolute; */
+    top: 20px;
+    left: 0;
+}
+.mem_container:hover .img_container{
+    display: block;
+
+}
+
+
+
+
+
