@@ -6,11 +6,12 @@
 }
 h1{
     border-bottom: 1px dotted black;
+    color: green;
 }
 .mem_container{
-
     cursor: pointer;
-
+    border: 1px dotted black;
+    padding: 20px;
 }
 .visible_name{
 
@@ -22,14 +23,13 @@ h1{
 
 }
 .img_container{
-    display: block;
 
     margin: 0 auto;
 
     width: 600px;
     height: 0px;
 
-    transition: 1s;
+    transition: 0.5s;
 
 }
 .druzhko{
@@ -45,11 +45,12 @@ h1{
     background-repeat: no-repeat;
 }
 .mem_container:hover .img_container{
-    display: block;
     height: 400px;
 
 }
-
+.mem_container:focus .img_container{
+    height: 400px;
+}
 
 
 
