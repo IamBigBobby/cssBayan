@@ -90,14 +90,42 @@ h1{
     background-image: url("assets/imgonline-com-ua-Resize-jTLAS6br3uHZ80.jpg");
     background-repeat: no-repeat;
 }
+.take_rest{
+    background-image: url("assets/imgonline-com-ua-Resize-kFernFgqKuK9fc.jpg");
+    background-repeat: no-repeat;
+}
+.caring_neighbor{
+    background-image: url("assets/imgonline-com-ua-Resize-5hzuG1GQm88OY.jpg");
+    background-repeat: no-repeat;
+}
+.senior{
+    background-image: url("assets/imgonline-com-ua-Resize-AdtJQ14Hcaod.jpg");
+    background-repeat: no-repeat; 
+}
+.cat_director{
+    background-image: url("assets/imgonline-com-ua-Resize-KLITgiUy5wYx.jpg");
+    background-repeat: no-repeat; 
+}
+.cruel_doctor{
+    background-image: url("assets/imgonline-com-ua-Resize-AW2dG77xUOQn.jpg");
+    background-repeat: no-repeat;
+}
+.drunk_dad{
+    background-image: url("assets/imgonline-com-ua-Resize-0wffMR0CjPjqVHkB.jpg");
+    background-repeat: no-repeat; 
+}
+.student_time{
+    background-image: url("assets/imgonline-com-ua-Resize-Uy5nwxVvipxYOl.jpg");
+    background-repeat: no-repeat;   
+}
 .mem_container:hover .img_container{
-    height: 400px;
+    height: 500px;
 }
 .mem_container:hover .icon_state{
     transform: rotate(-135deg);
 }
 .mem_container:focus .img_container{
-    height: 400px;
+    height: 500px;
 }
 .mem_container:focus{
     border: 3px solid black;
@@ -119,7 +147,7 @@ h1{
         font-size: 70px;
     }
     .name_of_mem{
-        font-size: 50px;
+        font-size: 30px;
     }
     .img_container{
         background-size: contain;
