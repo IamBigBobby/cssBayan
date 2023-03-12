@@ -1,25 +1,32 @@
 .wrapper{
     margin: 0 auto;
     box-sizing: border-box;
-
+    color: gray;
     width: 1000px;
 }
 h1{
     border-bottom: 1px dotted black;
-<<<<<<< HEAD
     color: green;
+}
+.main_content{
+    transition: 1s;
+}
+.main_content:hover{
+    color:black;
+}
+.main_content:hover .string_1{
+    background-color:black;
+}
+.main_content:hover .string_2{
+    background-color:black;
+}
+.main_content:hover .icon_state{
+    display: block;
 }
 .mem_container{
     cursor: pointer;
     border: 1px dotted black;
-    padding: 20px;
-=======
-}
-.mem_container{
-
-    cursor: pointer;
-
->>>>>>> 9c5f57769dc00b898c7c7101e4b7d33dc89540d1
+    padding: 5px;
 }
 .visible_name{
 
@@ -30,22 +37,39 @@ h1{
     overflow: hidden;
 
 }
-.img_container{
-<<<<<<< HEAD
-=======
+.icon_state{
+    display: none;
+    transition: 1s;
+}
+.string_1{
+    position: relative;
+    top: 7px;
     display: block;
->>>>>>> 9c5f57769dc00b898c7c7101e4b7d33dc89540d1
+    width: 20px;
+    height: 3px;
+    background-color: gray;
+    rotate: 45deg;
+    transition: 1s;
+}
+.string_2{
+    position: relative;
+    top: 4px;
+    display: block;
+    width: 20px;
+    height: 3px;
+    background-color: gray;
+    rotate: -45deg;
+    transition: 1s;
+}
+
+.img_container{
 
     margin: 0 auto;
 
     width: 600px;
     height: 0px;
 
-<<<<<<< HEAD
     transition: 0.5s;
-=======
-    transition: 1s;
->>>>>>> 9c5f57769dc00b898c7c7101e4b7d33dc89540d1
 
 }
 .druzhko{
@@ -61,15 +85,17 @@ h1{
     background-repeat: no-repeat;
 }
 .mem_container:hover .img_container{
-<<<<<<< HEAD
-=======
-    display: block;
->>>>>>> 9c5f57769dc00b898c7c7101e4b7d33dc89540d1
     height: 400px;
-
+}
+.mem_container:hover .icon_state{
+    transform: rotate(-135deg);
 }
 .mem_container:focus .img_container{
     height: 400px;
+}
+.mem_container:focus{
+    border: 3px solid black;
+    border-radius: 3px;
 }
 
 
