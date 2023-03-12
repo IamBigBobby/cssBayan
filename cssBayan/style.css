@@ -1,0 +1,161 @@
+body{
+    font-family: 'Climate Crisis', cursive;
+}
+.wrapper{
+    margin: 0 auto;
+    box-sizing: border-box;
+    color: gray;
+    max-width: 1000px;
+}
+h1{
+    border-bottom: 1px dotted black;
+    color: green;
+}
+.main_content{
+    transition: 1s;
+}
+.main_content:hover{
+    color:blue;
+}
+.main_content:hover .string_1{
+    background-color:black;
+}
+.main_content:hover .string_2{
+    background-color:black;
+}
+.main_content:hover .icon_state{
+    display: block;
+}
+.mem_container{
+    cursor: pointer;
+    border: 1px dotted black;
+    padding: 5px;
+}
+.name_of_mem{
+    font-size: 30px;
+}
+.visible_name{
+
+    display: flex;
+
+    justify-content: space-between;
+
+    overflow: hidden;
+
+}
+.icon_state{
+    display: none;
+    transition: 1s;
+}
+.string_1{
+    position: relative;
+    top: 7px;
+    display: block;
+    width: 20px;
+    height: 3px;
+    background-color: gray;
+    rotate: 45deg;
+    transition: 1s;
+}
+.string_2{
+    position: relative;
+    top: 4px;
+    display: block;
+    width: 20px;
+    height: 3px;
+    background-color: gray;
+    rotate: -45deg;
+    transition: 1s;
+}
+
+.img_container{
+
+    margin: 0 auto;
+
+    max-width: 600px;
+    height: 0px;
+
+    transition: 0.5s;
+
+}
+.druzhko{
+    background-image: url("assets/imgonline-com-ua-Resize-cn6h4tEaRXM.jpg");
+    background-repeat: no-repeat;
+}
+.dratuiti{
+    background-image: url("assets/imgonline-com-ua-Resize-psRZi5eY4m.jpg");
+    background-repeat: no-repeat;
+}
+.jony{
+    background-image: url("assets/imgonline-com-ua-Resize-jTLAS6br3uHZ80.jpg");
+    background-repeat: no-repeat;
+}
+.take_rest{
+    background-image: url("assets/imgonline-com-ua-Resize-kFernFgqKuK9fc.jpg");
+    background-repeat: no-repeat;
+}
+.caring_neighbor{
+    background-image: url("assets/imgonline-com-ua-Resize-5hzuG1GQm88OY.jpg");
+    background-repeat: no-repeat;
+}
+.senior{
+    background-image: url("assets/imgonline-com-ua-Resize-AdtJQ14Hcaod.jpg");
+    background-repeat: no-repeat; 
+}
+.cat_director{
+    background-image: url("assets/imgonline-com-ua-Resize-KLITgiUy5wYx.jpg");
+    background-repeat: no-repeat; 
+}
+.cruel_doctor{
+    background-image: url("assets/imgonline-com-ua-Resize-AW2dG77xUOQn.jpg");
+    background-repeat: no-repeat;
+}
+.drunk_dad{
+    background-image: url("assets/imgonline-com-ua-Resize-0wffMR0CjPjqVHkB.jpg");
+    background-repeat: no-repeat; 
+}
+.student_time{
+    background-image: url("assets/imgonline-com-ua-Resize-Uy5nwxVvipxYOl.jpg");
+    background-repeat: no-repeat;   
+}
+.mem_container:hover .img_container{
+    height: 500px;
+}
+.mem_container:hover .icon_state{
+    transform: rotate(-135deg);
+}
+.mem_container:focus .img_container{
+    height: 500px;
+}
+.mem_container:focus{
+    border: 3px solid black;
+    border-radius: 3px;
+    color: black;
+}
+
+
+@media screen and (max-width: 820px) {
+    h1{
+        font-size: 50px;
+    }
+    .name_of_mem{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 650px) {
+    h1{
+        font-size: 70px;
+    }
+    .name_of_mem{
+        font-size: 30px;
+    }
+    .img_container{
+        background-size: contain;
+    }
+    .mem_container:hover .img_container{
+        height: 200px;
+    }
+}
+
+
+
